@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class Solution {
+	
+	void findArea(int length,int breadth){
+		int AreaRec = length * breadth;
+		System.out.println(AreaRec);
+ 
+	}
+	public static void main(String args[]) {
+		
+		// Write code here
+		Scanner sc = new Scanner(System.in);
+		int length , breadth;
+		length = sc.nextInt();
+		breadth = sc.nextInt();
+		Solution obj = new Solution();
+		obj.findArea(length,breadth);
+		
+
+		
+	}
+}
